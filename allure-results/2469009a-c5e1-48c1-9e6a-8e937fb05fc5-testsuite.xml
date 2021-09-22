@@ -1,0 +1,107 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632297841720' stop='1632297890260'>
+    <name>Register and product checkout: As a user, I can able to register and login to website</name>
+    <title>Register and product checkout: As a user, I can able to register and login to website</title>
+    <test-cases>
+        <test-case start='1632297841721' status='passed' stop='1632297841722'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1632297841722' status='broken' stop='1632297890256'>
+            <name>Given I am on the login page</name>
+            <title>Given I am on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable</message>
+                <stack-trace>chrome not reachable
+                  (Session info: chrome=93.0.4577.82)
+                Backtrace:
+                	Ordinal0 [0x00A6A2D3+2663123]
+                	Ordinal0 [0x009FA491+2204817]
+                	Ordinal0 [0x008E1FE0+1056736]
+                	Ordinal0 [0x008D7064+1011812]
+                	Ordinal0 [0x008D7856+1013846]
+                	Ordinal0 [0x008D8F35+1019701]
+                	Ordinal0 [0x008D3106+995590]
+                	Ordinal0 [0x008E3330+1061680]
+                	Ordinal0 [0x00934552+1394002]
+                	Ordinal0 [0x0092589B+1333403]
+                	Ordinal0 [0x00901F74+1187700]
+                	Ordinal0 [0x00902DC9+1191369]
+                	GetHandleVerifier [0x00C030D6+1610054]
+                	GetHandleVerifier [0x00CAB53B+2299307]
+                	GetHandleVerifier [0x00AF8DA9+519705]
+                	GetHandleVerifier [0x00AF7759+513993]
+                	Ordinal0 [0x00A0112D+2232621]
+                	Ordinal0 [0x00A055F8+2250232]
+                	Ordinal0 [0x00A05732+2250546]
+                	Ordinal0 [0x00A0E591+2286993]
+                	BaseThreadInitThunk [0x76A0FA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x77857A7E+286]
+                	RtlGetAppContainerNamedObjectPath [0x77857A4E+238]
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1632297890257' status='pending' stop='1632297890257'>
+            <name>When I register with test1234@testtest.com</name>
+            <title>When I register with test1234@testtest.com</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1632297890257' status='pending' stop='1632297890258'>
+            <name>Then I should see a flash message saying Your username is invalid!</name>
+            <title>Then I should see a flash message saying Your username is invalid!</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1632297890258' status='passed' stop='1632297890259'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
